@@ -47,5 +47,9 @@ public class Player { //clase Jugador
         return hand;
      }
 
+     public boolean canBet(double amount) { //metodo para validar si se puede apostar
+        return balance >= amount; //true o false
+    }
+
 
  }  

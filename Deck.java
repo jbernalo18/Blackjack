@@ -24,7 +24,7 @@ public class Deck { // Se crea clase
         Card card = cards.removeFirst();
         return card;
     }
-    public int getCardsCount(){
+    public int getCardsCount(){  //verfif
         return cards.size();
     }
 }

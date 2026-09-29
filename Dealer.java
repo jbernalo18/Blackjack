@@ -10,14 +10,27 @@ public class Dealer { //clase dealer
     }
 
     public int getId() { //getter id dealer
-    return id;
-}
+        return id;
+    }
 
-public String getName() { //getter nombre dealer
-    return name;
-}
+    public String getName() { //getter nombre dealer
+        return name;
+    }
 
-public ArrayList<Card> getHand() {  //getter mano dealer
-    return hand;
-}
+    public ArrayList<Card> getHand() {  //getter mano dealer
+        return hand;
+    }
+
+    public void addCard(Card card) { //metodo para añadir carta a mano de dealer
+        hand.add(card);
+    }
+
+    public void openBetting(GameRound round) {  // Abre las apuestas de una ronda
+        round.openBetting();
+    }    
+
+    public void closeBetting(GameRound round) { // Cierra las apuestas de una ronda
+        round.closeBetting();
+    }
+
 }

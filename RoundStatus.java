@@ -1,5 +1,5 @@
 public enum RoundStatus { // estados de ronda
-    WAITING,
+    WAITING, 
     BETTING_OPEN,
     BETTING_CLOSED,
     PLAYING,
