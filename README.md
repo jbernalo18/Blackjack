@@ -13,5 +13,3 @@ Drawing cards
 
 Roadmap:
 Player → Game → Table → Blackjack Rules → Spring Boot → REST API → PostgreSQL → Backoffice → Real-time communication
-
-Y listo.
