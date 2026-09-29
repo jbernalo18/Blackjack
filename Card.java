@@ -10,16 +10,22 @@ public class Card {
     this.suit = suit;
     this.value = value;
   }
- public String getCode(){
+ public String getCode(){ //getter código
    return this.code;
 
   }
- public char getSuit() {
+ public char getSuit() { //getter palo
     return this.suit;
  }
 
- public int getValue() {
+ public int getValue() { //getter valor
     return this.value;
  }
+
+   @Override
+    public String toString() { //Metodo para convertir ojbect en String (Player@... a Texto)
+        return this.code;
+    }
+
 
 }
